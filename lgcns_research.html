@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>석사 연구실 커리어 — 김한길</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+<style>
+:root {
+  --navy: #1b3a5c;
+  --blue: #2a6496;
+  --blue-light: #4a8bc2;
+  --blue-pale: #e8f0f8;
+  --blue-bg: #f4f8fc;
+  --border: #c8d8e8;
+  --accent: #d4943a;
+  --gray-50: #f9fafb;
+  --gray-200: #e5e7eb;
+  --gray-500: #6b7280;
+  --gray-700: #374151;
+  --gray-900: #111827;
+  --radius: 8px;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  font-family: 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+  color: var(--gray-900); background: #fff; line-height: 1.65; font-size: 10.5pt;
+}
+.container { max-width: 900px; margin: 0 auto; padding: 0 28px; }
+
+.hero {
+  background: linear-gradient(135deg, #1a3550 0%, #2a5a80 40%, #3d7ab5 100%);
+  color: #fff; padding: 40px 0 34px; position: relative; overflow: hidden;
+}
+.hero::before {
+  content:''; position:absolute; top:-40%; right:-15%; width:420px; height:420px;
+  background: radial-gradient(circle, rgba(255,255,255,0.06) 0%, transparent 70%); border-radius:50%;
+}
+.hero .container { position:relative; z-index:1; display:flex; justify-content:space-between; align-items:center; }
+.hero-left h1 { font-size: 28px; font-weight: 800; letter-spacing: -0.5px; margin-bottom: 6px; }
+.hero-left .subtitle { font-size: 13px; opacity: 0.85; font-weight: 400; letter-spacing: 2px; }
+.hero-right { text-align:right; font-size: 12px; line-height: 2; opacity: 0.9; }
+.hero-right i { margin-right: 5px; opacity: 0.7; font-size: 11px; }
+
+.section { padding: 28px 0 16px; }
+.section-title {
+  display:flex; align-items:center; gap:8px;
+  font-size: 16px; font-weight: 700; color: var(--navy);
+  margin-bottom: 14px; padding-bottom: 8px;
+  border-bottom: 2.5px solid var(--blue);
+}
+.section-title i { color: var(--blue); font-size: 14px; }
+
+.project-card {
+  background: var(--blue-bg); border:1px solid var(--border); border-radius: var(--radius);
+  padding: 12px 16px; margin-bottom: 10px; page-break-inside: avoid;
+}
+.project-card h4 {
+  font-size: 11.5pt; font-weight: 700; color: var(--navy); margin-bottom: 8px;
+  padding-bottom: 5px; border-bottom: 1px solid var(--border);
+}
+.meta-row {
+  display:grid; grid-template-columns: 80px 1fr; gap:3px 8px; font-size:9.5pt; margin-bottom:6px;
+}
+.meta-row .label { color:var(--blue); font-weight:700; white-space:nowrap; }
+.meta-row .val { color:var(--gray-700); }
+
+.content-cols {
+  display:grid; grid-template-columns:1fr; gap:0 16px; font-size:9.5pt; margin-top:4px;
+}
+.content-cols ul { padding-left:16px; margin:0; }
+.content-cols li { margin-bottom:2px; line-height:1.55; }
+
+.result-box {
+  background: var(--blue-pale); border-left:3px solid var(--blue);
+  border-radius: 0 6px 6px 0; padding:8px 12px; margin-top:8px; font-size:9.5pt;
+}
+.result-box .tag {
+  display:inline-block; background:var(--blue); color:#fff;
+  font-size:9.5pt; font-weight:700; padding:1px 8px; border-radius:3px;
+  margin-bottom:4px;
+}
+
+.paper-card {
+  background: var(--blue-bg); border:1px solid var(--border); border-radius: var(--radius);
+  padding:12px 16px; margin-bottom:10px; page-break-inside:avoid;
+}
+.paper-card h4 {
+  font-size:11.5pt; font-weight:700; color:var(--navy); margin-bottom:8px;
+  padding-bottom:5px; border-bottom:1px solid var(--border);
+}
+.paper-meta { display:grid; grid-template-columns:80px 1fr; gap:3px 8px; font-size:9.5pt; }
+.paper-meta .label { color:var(--blue); font-weight:700; }
+.award-badge {
+  display:inline-block; background:linear-gradient(135deg, var(--accent), #c07a20);
+  color:#fff; font-size:9.5pt; font-weight:700; padding:1px 8px;
+  border-radius:3px; margin-left:4px;
+}
+
+hr { border:none; border-top:1px solid var(--gray-200); margin:20px 0; }
+
+@media print {
+  @page { size: A4; margin: 14mm 12mm; }
+  body { padding:0; -webkit-print-color-adjust:exact; print-color-adjust:exact; font-size:9.5pt; }
+  .hero { padding: 14px 0 12px; }
+  .hero-left h1 { font-size: 22px; }
+  .hero::before { display:none; }
+  .project-card, .paper-card { break-inside:avoid; }
+}
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="container">
+    <div class="hero-left">
+      <h1>김한길</h1>
+      <div class="subtitle">석사 연구실 커리어 — 서울대학교 환경대학원 (2018.12~2020.08)</div>
+    </div>
+    <div class="hero-right">
+      <div><i class="fas fa-calendar-alt"></i>1993년생 · 서울 광진구</div>
+      <div><i class="fas fa-phone"></i>010-4786-4667</div>
+      <div><i class="fas fa-envelope"></i>hangil0209@gmail.com</div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+
+<div class="section">
+  <div class="section-title"><i class="fas fa-flask"></i> 연구 프로젝트</div>
+
+  <div class="project-card">
+    <h4>1. 세종 국가 스마트산업단지 특화전략 수립 연구</h4>
+    <div class="meta-row">
+      <span class="label">프로젝트명</span><span class="val">세종 국가 스마트산업단지 특화계획 수립 연구</span>
+      <span class="label">발주처</span><span class="val">LH 세종특별본부</span>
+      <span class="label">역할</span><span class="val">연구보조원 — 현황분석, 산업동향 조사, 해외 벤치마킹, 특화전략 도출</span>
+    </div>
+    <div class="content-cols">
+      <ul>
+        <li>세종시 일반·산업·입지 현황 분석 및 SWOT 분석</li>
+        <li>11개 산업(자율주행, 모빌리티, 로봇, 에너지 등) 동향 조사</li>
+        <li>해외 스마트산단 벤치마킹(독일, 스웨덴, 미국 등), 해외 행정수도(워싱턴 D.C., 캔버라, 오타와) 산업구조 비교</li>
+        <li>스마트모빌리티(자율주행 셔틀) 등 6대 특화전략 수립</li>
+      </ul>
+    </div>
+    <div class="result-box">
+      <span class="tag">성과</span> 연구 보고서(92p) 납품, 세종 국가산단 조성방향 수립 기여
+    </div>
+  </div>
+
+  <div class="project-card">
+    <h4>2. 경기도 규제등급 평가 및 규제연계형 지원정책 연구</h4>
+    <div class="meta-row">
+      <span class="label">프로젝트명</span><span class="val">경기도 지역별 규제등급 평가 및 규제연계형 지원정책 연구</span>
+      <span class="label">발주처</span><span class="val">경기연구원</span>
+      <span class="label">역할</span><span class="val">연구보조원 — CVM 설문 설계·수행, 분석 보고서 작성</span>
+    </div>
+    <div class="content-cols">
+      <ul>
+        <li>조건부가치추정법(CVM) 기반 사회적 편익 추정 설문 설계·수행</li>
+        <li>수도권 성인 300명 대상 면접조사 2건(군사시설·상수원 보호구역)</li>
+        <li>단일경계/이중경계모형 분석, 지불용의액 및 총편익 산출</li>
+        <li>군사시설 보호구역 편익: 수도권 1,441억~4,731억원</li>
+        <li>상수원 보호구역 편익: 수도권 1,340억~2,598억원</li>
+      </ul>
+    </div>
+    <div class="result-box">
+      <span class="tag">성과</span> 경기연구원 정책연구 보고서 납품
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<div class="section">
+  <div class="section-title"><i class="fas fa-graduation-cap"></i> 석사학위논문</div>
+
+  <div class="paper-card">
+    <h4>스마트 전문화를 통한 수도권과 비수도권의 산업 혁신 방안 연구: 로봇산업을 중심으로</h4>
+    <div class="paper-meta">
+      <span class="label">게재</span><span>국토계획(대한국토도시계획학회지), 2021.10</span>
+      <span class="label">저자</span><span>김한길(주저자), 이영성</span>
+      <span class="label">방법론</span><span>지역산업연관분석, 산업네트워크분석, 공간분석(GIS)</span>
+      <span class="label">주요 결과</span>
+      <span>
+        · 비수도권: HW 중심 로봇산업, 제조업과의 활발한 산업 간 거래로 수도권 대비 높은 생산유발효과. 전후방 연쇄효과가 크고 지역 내 고용 창출 우수<br>
+        · 수도권: SW 중심 로봇산업, IT·전문서비스 등 고차 서비스업 연관 고부가가치 구조. 부가가치유발효과 상대적 우위<br>
+        · 지역별 산업 역량 기반 차별화된 스마트 전문화 전략 필요성 실증적 제시
+      </span>
+      <span class="label">수상</span><span>서울대학교 환경대학원 석사학위 <b>우수논문상</b> (2020.02) <span class="award-badge">수상</span></span>
+    </div>
+  </div>
+</div>
+
+</div>
+</body>
+</html>
